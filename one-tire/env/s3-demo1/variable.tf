@@ -3,7 +3,7 @@ variable "env" {
 }
 
 variable "s3-name" {
-  default="my-terraform-state"
+  default="talk-my-terraform-state"
 }
 
 

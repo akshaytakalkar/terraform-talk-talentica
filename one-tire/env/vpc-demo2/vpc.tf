@@ -1,5 +1,5 @@
 resource "aws_vpc" "app_vpc" {
-  instance_tenancy = "dedicated"
+  instance_tenancy = "default"
   cidr_block = var.vpc_cidr
   tags = {
     Name = var.env
